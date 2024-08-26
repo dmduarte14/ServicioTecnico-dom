@@ -1,4 +1,4 @@
-"<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -125,10 +125,8 @@ crossorigin="anonymous"
 
             </article>
             
-       </section>
+     </section>
        <hr class="linea">
-
-
         <section id="Autogestion"> 
             <h2>Autogestión</h2>
             <section class="card-container">
@@ -152,7 +150,6 @@ crossorigin="anonymous"
                     <a href="autogestion.html" class="btn btn-primary">Comenzar</a>
                   </div>
                 </div>
-               
                 <div class="card">
                   <img src="./img/card_heladera.jpg" class="card-img-top" alt="Heladeras" />
                   <div class="card-body">
@@ -163,7 +160,6 @@ crossorigin="anonymous"
                     <a href="autogestion.html" class="btn btn-primary">Comenzar</a>
                   </div>
                 </div>
-
                 <div class="card">
                   <img src="./img/card_lavarropas.jpg" class="card-img-top" alt="Lavarropas" />
                   <div class="card-body">
@@ -175,61 +171,65 @@ crossorigin="anonymous"
                   </div>
                 </div>
 
-              </section>
+                
+            </section>
 
-        <div class="New-card">
-          <p>Este mensaje solo puede visualizarse si es administrador</p>
-          <div class="contenedor">
-            <button class="btn" type="submit" id="lanzar-modal">Nueva Línea</button>
-        </div>
-    
-        <div class="contenedor-modal">
-            <div class="modal">
-               
-                <h2>Nueva Linea</h2>
-    
-                <form>
-                    <input type="text" id="titulo" placeholder="titulo" required>
-                    
-                    <input type="textarea" id="descripcion" style="width: 500px;height: 100px;" placeholder="descripcion" required>
-                    <input type="url" name="card-image" id="cardImage" placeholder="https://picsum.photos/200">
-                    <br>
-                    <h4>Personalizacion</h4>
-                    <div class = "personalizacion">
-                        <label for="card-bg-color">Color de fondo</label>
-                        <input
-                          type="color"
-                          id="card-bg-color"
-                          name="card-bg-color"
-                          value="#ffffff"
-                        />
-                      
-                        <label for="card-border-color">Color del borde</label>
-                        <input
-                          type="color"
-                          id="card-border-color"
-                          name="card-border-color"
-                          value="#000000"
-                        />
-                      
-                        <label for="text-color">Color del texto</label>
-                        <input
-                          type="color"
-                          id="text-color"
-                          name="text-color"
-                          value="black"
-                        />
+             <div class="New-card">
+                <p>Este mensaje solo puede visualizarse si es administrador</p>
+                    <div class="contenedor">
+                    <button class="btn" type="submit" id="lanzar-modal">Nueva Línea</button>
+                    </div>
+            
+               <div class="contenedor-modal">
+                  <div class="modal">
+            
+                      <h2>Nueva Linea</h2>
+            
+                      <form>
+                          <input type="text" id="titulo" placeholder="titulo" required>
+            
+                          <input type="textarea" id="descripcion" style="width: 500px;height: 100px;" placeholder="descripcion" required>
+                          <input type="url" name="card-image" id="cardImage" placeholder="https://picsum.photos/200">
+                
+                          <br>
+                            <h4>Personalizacion</h4>
+                            <div class = "personalizacion">
+                            <label for="card-bg-color">Color de fondo</label>
+                            <input
+                            type="color"
+                            id="card-bg-color"
+                            name="card-bg-color"
+                            value="#ffffff"
+                            />
+            
+                            <label for="card-border-color">Color del borde</label>
+                            <input
+                            type="color"
+                            id="card-border-color"
+                            name="card-border-color"
+                            value="#000000"
+                            />
+            
+                            <label for="text-color">Color del texto</label>
+                            <input
+                            type="color"
+                            id="text-color"
+                            name="text-color"
+                            value="black"
+                            />
+                            </div>
+                            <br />
+            
+                            <button class="btn" type="submit" id="ocultar-modal">ENVIAR</button>
+                      </form>
                   </div>
-                    <br />
-                    
-                      <button class="btn" type="submit" id="ocultar-modal">ENVIAR</button>
-                </form>
-            </div>
-        </div>
-
-      
- 
+              </div>
+            
+            
+            </div>        
+        
         </section>
+
         <hr class="linea">
 
         <section id="Galeria"> 
@@ -306,7 +306,5 @@ crossorigin="anonymous"
     </div>
 
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>

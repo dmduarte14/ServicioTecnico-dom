@@ -33,7 +33,7 @@ btnOcultarModal.addEventListener('click', (e) => {
 
     const card = document.querySelector('.card-container');
 
-        const pTitulo = document.getElementById("titulo").value;git
+        const pTitulo = document.getElementById("titulo").value;
         const pDescripcion = document.getElementById("descripcion").value;
         const imageUrl = document.getElementById("cardImage").value || "https://picsum.photos/200";
         const bgColor = document.getElementById("card-bg-color").value;
